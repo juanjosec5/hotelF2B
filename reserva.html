@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+    <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113881226-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113881226-1');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Friends To Be - Conocenos</title>
+
+        <!-- LOGO ICON -->
+        <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+        <link rel="manifest" href="/icons/site.webmanifest">
+        <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom fonts for this template -->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
+        <!-- Custom styles for this template -->
+        <link href="css/agency.css" rel="stylesheet">
+
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="index.html">
+                    <img src="img/logos/logo-principal-blanco.png" alt="">
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger " href="conocenos.html">Conócenos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
+                                Alojamiento
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="alojamiento-cartagena.html">Cartagena</a>
+                                <a class="dropdown-item" href="alojamiento-medellin.html">Medellín</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger active" href="#page-top">Reserva</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="masthead-reserva">
+            <div class="container">
+                <div class="intro-text">
+                    <div class="intro-lead-in">Friends To Be</div>
+
+                    <div class="intro-heading text-uppercase">Reserva con nosotros</div>
+                </div>
+            </div>
+        </header>
+
+
+        <!----------------------RSERVA FORMULARIO---------------------------->
+        <section class="" id="reserva">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Planea tu reserva</h2>
+                        <img src="img/underline-blanco.png" alt="">
+                        <h3 class="section-subheading text-muted">
+                            Hemos recibido su mensaje y nos gustaría agradecerle por escribirnos. Si su consulta es urgente, utilice el número de teléfono que figura al final de la página para hablar con uno de los miembros de nuestro personal. De lo contrario, le responderemos por correo electrónico lo antes posible.</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form id="reservationForm" name="sentMessage" novalidate>
+                            <div class="row">
+                                <!--Name, Email, Phone-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="name" type="text" placeholder="Nombre *" required data-validation-required-message="Por favor ingresa tu nombre.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="email" type="email" placeholder="Correo *" required data-validation-required-message="Por favor ingresa tu correo.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="phone" type="tel" placeholder="Telefono *" required data-validation-required-message="Por favor ingresa un telefono">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+
+                                    <div class="form-group ">
+                                        <select class="form-control form-control-lg selector" placeholder="asd" id="hostal">
+                                            <option hidden >Hotel</option>
+                                            <option>Cartagena</option>
+                                            <option>Medellín</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!--Check in, Check out, Number of people-->
+                                <div class="col-md-6">
+                                    <div class="form-group"> <!-- Date input -->
+                                        <input class="form-control" id="dateIn" name="date" placeholder="MM/DD/YYY | Check-in" required data-validation-required-message="Por favor seleccionar una fecha" type="text" required />
+                                    </div>
+                                    <div class="form-group"> <!-- Date input -->
+                                        <input class="form-control" id="dateOut" name="date" placeholder="MM/DD/YYY | Check-out" required data-validation-required-message="Por favor seleccionar una fecha" type="text" required />
+                                    </div>
+                                    <div class="form-group ">
+                                        <select class="form-control form-control-lg selector" placeholder="asd" id="personas">
+                                            <option hidden >Cantidad de Personas *</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 text-center">
+                                    <div id="success"></div>
+                                    <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Clients -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 grow">
+                        <a href="#">
+                            <img class="img-fluid d-block mx-auto " src="img/despegar.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 grow">
+                        <a href="#">
+                            <img class="img-fluid d-block mx-auto " src="img/booking.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 grow">
+                        <a href="#">
+                            <img class="img-fluid d-block mx-auto " src="img/expedia.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 grow">
+                        <a href="#">
+                            <img class="img-fluid d-block mx-auto " src="img/tripadvisor.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="informacion">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4 footer-section text-left ">
+                            <h4>Cartagena</h4>
+                                <ul class="fa-ul">
+                                <li><a href=""><i class="fa-li fa fa-phone"></i>(+57)(5)643-7391</a></li>
+                                <li><a href=""><i class="fa-li fa fa-phone"></i>(+57) 317-636-1099</a></li>
+                                <li><a href=""><i class="fa-li fa fa-envelope"></i>reservasf2bcartagena@f2b.com.co</a></li>
+                                <li><a href=""><i class="fa-li fa fa-map-marker"></i>Calle del Espíritu Santo  10C 105 - Getsemani</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12 col-lg-4 footer-section text-left ">
+                            <h4>Redes Sociales</h4>
+                            <ul class="fa-ul">
+                                <li> <a href="https://www.facebook.com/f2bcartagena/" target="_blank"> <i class="fa-li fa fa-facebook"></i>Friends To Be</a></li>
+                                <li> <a href="https://www.instagram.com/friendstobecartagena_medellin/" target="_blank"> <i class="fa-li fa fa-instagram"></i>Cartagena</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12 col-lg-4 footer-section text-left ">
+                            <h4>Medellín</h4>
+                            <ul class="fa-ul">
+                                <li><a href=""><i class="fa-li fa fa-phone"></i>(+57)(4)584-6445</a></li>
+                                <li><a href=""><i class="fa-li fa fa-phone"></i>(+57) 316-534-5601</a></li>
+                                <li><a href=""><i class="fa-li fa fa-envelope"></i>reservasmde@f2b.com.co</a></li>
+                                <li><a href=""><i class="fa-li fa fa-map-marker"></i>Cra 36 #10-43</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center"><p style="padding-bottom: 5px; margin-bottom: 5px; margin-top: 15px; font-size: 13px; color: white;">F2B &copy; 2015 VIVIR ES LA VERDADERA AVENTURA</p></div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/map.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh0Rpf5Bh5wjiYUQ-gNp2vK1hJ5zlIsxE&callback=myMap">
+        </script>
+
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!--Date Picker-->
+        <!-- Bootstrap Date-Picker Plugin -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Contact form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/reserva.js"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="js/agency.min.js"></script>
+
+        <!-- Photo Gallery Script-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.tz-gallery');
+        </script>
+
+        <!--------------DATEPICKER--------------------- -->
+        <script>
+            $(document).ready(function(){
+                var date_input=$('input[name="date"]'); //our date input has the name "date"
+                var container=$('.container form').length>0 ? $('.container form').parent() : "body";
+                var options={
+                    format: 'mm/dd/yyyy',
+                    container: container,
+                    todayHighlight: true,
+                    autoclose: true,
+                };
+                date_input.datepicker(options);
+            })
+        </script>
+    </body>
+
+</html>
